@@ -1,2 +1,3 @@
 FROM caddy:latest
-COPY . /var/www/html/public
+COPY . /srv
+COPY ./Caddyfile /etc/caddy/Caddyfile
